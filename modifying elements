@@ -1,0 +1,28 @@
+# Modifying Elements in a List - change, append, insert
+veges = ['potatoes', 'onion', 'tomato', 'carrot', 'broccoli']
+print(veges)
+veges[2] = 'cauliflower' # changing an element of the list
+print(veges)
+veges.append('peas') #add an element at the END
+print(veges)
+veges.insert(1,'leek') # inserting an element to any position
+print(veges)
+veges.insert(-2,'cucumber') ## can also use 3 or 4
+print(veges)
+
+# Remove elements - del, pop(), del vs pop, remove (value),
+bikes = [10, 12, 100, 433, 90, 60, 88, 1096]
+print(bikes)
+del bikes [1]
+print(bikes)
+bikes.pop() #removes last element 
+print(bikes)
+f2 = bikes.pop(2) # pop can ALSO remove by index number
+print(bikes)
+print('I removed : ', f2)
+# delete - just removes the value - no access
+# pop() - also returns the value removed
+bikes.remove(60)
+print(bikes)
+bikes = []
+print(bikes)
