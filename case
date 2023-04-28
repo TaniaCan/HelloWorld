@@ -1,0 +1,11 @@
+countUpper = 0
+countLower = 0
+name = 'Tanya'
+
+for i in name:
+  if i.isupper():
+    countUpper += 1
+  if i.islower():
+    countLower += 1
+print(countUpper, 'uppercase letters')
+print(countLower, 'lowercase letters')
